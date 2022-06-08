@@ -1,0 +1,46 @@
+@font-face {
+    font-family:'personalizada';
+    src: url('../fonts/I-pixel-u.ttf') format('truetype');
+  }
+.titulo{
+    font-family:  'personalizada';
+    font-size:3em;
+    margin: 5px auto 0 ;
+    padding: 5px;
+    color: rgb(24, 214, 119);
+    width: 50vw;
+    background-color:rgb(20, 33, 44) ;
+    border: 4px solid aliceblue;
+    border-radius: 5px;
+}
+body{
+    text-align: center;
+    background-color: rgb(26, 157, 245);
+}
+#coracao, #hidrante, #maca,#cobra-cima, #cobra-baixo, #cobra-esquerda, #cobra-direita,#corpo{
+    display: none;
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer{
+    width: 15vw;
+    background-color: rgb(20, 33, 44);
+    display: flex;
+    font-family:'personalizada';
+    font-size : 2em; 
+    color: rgb(24, 214, 119);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+canvas{
+    margin: 0 auto;
+    border: 4px solid aliceblue;
+    border-radius: 5px;
+    display: flex;
+}
+
